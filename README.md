@@ -68,13 +68,17 @@ The list updates instantly — no page refresh needed.
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
+
+```
 src/
 ├── App.jsx           # main app logic, auth state, role loading
-├── Login.jsx          # login form
-├── RequestForm.jsx    # create draft / submit for approval
-├── RequestList.jsx    # list, filters, approve/reject actions
-├── requestsApi.js     # Supabase queries
-└── supabaseClient.js  # Supabase client setup
+├── Login.jsx         # login form
+├── RequestForm.jsx   # create draft / submit for approval
+├── RequestList.jsx   # list, filters, approve/reject actions
+├── requestsApi.js    # Supabase queries
+└── supabaseClient.js # Supabase client setup
+```
 ## 🗄️ Database Schema
 
 **users**
