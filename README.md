@@ -68,8 +68,6 @@ The list updates instantly — no page refresh needed.
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
-
 ```
 src/
 ├── App.jsx           # main app logic, auth state, role loading
